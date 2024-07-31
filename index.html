@@ -4,15 +4,114 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="reset.css" rel="stylesheet" type="text/css" />
+  <title>Saving Ecosystems</title>
+  <link rel="icon"
+    href="https://th.bing.com/th/id/R.0fe5c25199925e725d337aa713b443f8?rik=6LrAXGFQHVq9yw&riu=http%3a%2f%2fclipart-library.com%2fnewimages%2ftree-clip-art-23.png&ehk=4azePdfB15eSnoIJo2a6qAR0mUDyAPpvuhXlAMsTkFQ%3d&risl=1&pid=ImgRaw&r=0"
+    <link href="reset.css" rel="stylesheet" type="text/css" />
   <link href="style.css" rel="stylesheet" type="text/css" />
   <link href="reset-webview.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-  Hello world
-  <script src="script.js"></script>
+  <!---Header--->
+  <div class="banner">   
+    <h1>Saving Ecosystems</h1>
+  </div>
+  
+  <!---Nav Bar--->
+    <div class ="container1"
+    <nav id="nav-bar">
+      <a class="nav-link" href="#kids">Kids</a>
+      <a class="nav-link" href="#teens">Teens</a>
+      <a class="nav-link" href="#adults">Adults</a>
+    </nav>
+    </div>
+  <br></br>
+    <button id="theme-button">Toggle Dark Mode</button>
+
+    <!--- About --->
+    <h2>The Importance of Preserving Environments to Protect Biodiversity</h2>
+    <div class="flex-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ig9Tfc_hNsE?si=h_jiIuJkn6x82MgH"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <p>Humans have had profound impacts on the natural world: populations of thousand of species are dying. Preserving the environment is crucial for protecting biodiversity, as it is essential for the stability and resilience of ecosystems. Biodiversity supports ecosystem services such as pollination, nutrient cycling, and climate regulation, all vital for human survival. Healthy ecosystems provide clean air, water, food, and resources while mitigating natural disasters. Loss of biodiversity can lead to ecosystem collapse, negatively impacting agriculture, fisheries, and health. Protecting habitats, reducing pollution, and combating climate change are key actions needed to preserve biodiversity, ensuring a sustainable and healthy future for all life forms on Earth.
+    </p>
+    </div>
+    <button type="button">About Us</button>
+    <button type="button">Get Involved</button>
+    <!--- Data --->
+
+    <h3>Biodiversity Loss in Recent Years</h3>
+    <img src="https://assets.weforum.org/editor/klq2N6BbU8spbfwqM73-d2MMi0fH0_ivybUzvdZhsh8.jpg" />
+    <h4>Less biodiversity=less resilience to natural disasters. A myriad of species are at risk of extinction. </h4>
+    <div>
+      <h3 id="kids">Kids</h3>
+      <p>These are things that kids can do to help the environment.</p>
+    </div>
+    <div>
+      <h3 id="teens">Teens</h3>
+      <p>These are things that teenagers can do to help the environment.</p>
+    </div>
+    <div>
+      <h3 id="adults">Adults</h3>
+      <p>These are things that kids can do to help the environment.</p>
+    </div>
+    <!--- News --->
+    <h3></h3>
+    <a
+      href="https://www.msn.com/en-us/lifestyle/lifestyle-buzz/20-earth-day-facts-you-should-know/ar-AAVr3lz?ocid=BingNewsVerp">Earth
+      Day</a>
+
+
+
+    <div class=flex-container>
+      <div class="box">
+        <h2>About Us</h2>
+      </div>
+      <div class="box">
+        <h2>Get Involved</h2>
+      </div>
+    </div>
+
+    <!---Form--->
+      <h2>Sign Our Petition 📢</h2>
+      <div class="petition-container">
+        <div class="petition-para">
+          We want to make sure that we are protecting the environment for future           generations, and we need your help to do so. With your signature, we             can convince policymakers that the preservation of the environment is            important to the general public.
+        </div>
+
+        <div class="signatures">
+          <p>🖊️ Craig from Burbank supports this.</p>
+          <p>🖊️ Hailey from Inglewood supports this.</p>
+          <p>🖊️ Shane from Hollywood supports this.</p>
+        </div>
+      </div>
+    
+      <form id="myForm">
+        <h3 id="form-title">Petition</h3>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="hometown">Hometown:</label>
+        <input type="text" id="hometown" name="Hometown" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br></br>
+        <button type="submit">Sign Now</button>
+      </form>
+      <div id="result"></div>
+      <!---Footer--->
+      <p>Email Us</p>
+      <p>Learn More</p>
+
+
+
+
+
+      <script src="script.js"></script>
 </body>
 
 </html>

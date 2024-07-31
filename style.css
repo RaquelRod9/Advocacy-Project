@@ -2,3 +2,113 @@ html {
   height: 100%;
   width: 100%;
 }
+
+body {
+  background-color: #b9ffb8;
+}
+
+.banner {
+  background-image:   url("https://www.worldatlas.com/upload/4f/e7/76/shutterstock-1523681669.jpg");
+  object-fit: cover;  
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  font-size: 40px;
+  color: #3e3e23;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-size: cover;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-size: 25px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  color: #0FAAC8;
+  margin: 10px;
+  border: 4px solid #576e19;
+  text-align: center;
+  line-height: 30px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+h2 {
+  text-align: center;
+  color: #78a90f;
+}
+
+h3 {
+  line-height: 10px;
+  color: brown;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+img {
+  length:500px;
+  width:500px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+button {
+  background-color: #0FAAC8;
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.petition-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100;
+  padding-bottom: 50px;
+}
+
+#petition-para {
+  width: 55%
+}
+
+#signatures {
+  width: 45%
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
